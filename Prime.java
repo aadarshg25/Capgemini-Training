@@ -1,13 +1,13 @@
 import java.util.*;
 
 class Prime{
-	public static Boolean isPrime(int a){
+	public static Boolean isPrime(int s){
 
-	if(a <2){
+	if(s <2){
 		return false;
 		}
-	for(int i=2;i<=Math.sqrt(a);i++){
-		if(a%i ==0){
+	for(int i=2;i<=Math.sqrt(s);i++){
+		if(s%i ==0){
 			return false;
 			}
 		}
